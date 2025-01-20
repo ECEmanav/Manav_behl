@@ -82,6 +82,27 @@ footer {
 .contact-container .btn:hover {
     background: #555;
 }
+/* LinkedIn Badge Container */
+.linkedin-badge-container {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-badge-container h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* Adjust Contact Container Spacing */
+.contact-container {
+    margin-bottom: 2rem;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
